@@ -1,0 +1,34 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html,
+body {
+   width: 100%;
+   height: 100%;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   background: #ddd;
+
+   main {
+      flex-grow: 1;
+   }
+}
+
+
+.header,
+section {
+   margin-bottom: 30px;
+}
+
+
+.header,
+section,
+footer {
+   padding: 10px 0;
+   background: #ccc;
+}

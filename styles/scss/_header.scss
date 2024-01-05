@@ -1,0 +1,25 @@
+.logo {
+   max-width: 120px;
+
+   .logo__img {
+      max-width: 100%;
+   }
+}
+
+.navbar {
+   height: 100%;
+
+   .nav-link {
+      text-align: right;
+   }
+}
+
+
+
+@media (min-width: 992px) {
+   .navbar-expand-lg .navbar-nav .nav-link {
+      padding-left: 12px;
+      padding-right: 12px;
+      text-align: left;
+   }
+}
